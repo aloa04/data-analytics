@@ -1,6 +1,6 @@
 # Master Data Analytics 
 
-Hi! I'm Pablo Bottero,m I'm from Valencia (Spain) 👋
+Hi! I'm Pablo Bottero, I'm from Valencia (Spain) 👋
 
 Here you can find all my ~~attempts~~ work done during the Master in Data Analytics at EDEM during 2021/2022.
 
