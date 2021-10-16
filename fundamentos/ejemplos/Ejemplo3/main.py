@@ -6,16 +6,16 @@ usuarios=[1,2,3,4,5]
 
 @app.route('/')
 def index():
-    return 'Web App with Python Flask!'
+    return 'Este es el ejercicio 3 y no te estas equivocando!'
 
 @app.route('/users/<user_id>', methods = ['GET', 'POST', 'DELETE'])
 def getuser(user_id):
     if request.method == 'GET':
-        return ""
+        return "Lo tienes"
     if request.method == 'POST':
-        return ""
+        return "Lo enviaste"
     if request.method == 'DELETE':
-        return ""
+        return "Lo eliminaste"
     else:
         abort(405,description="Method not allowed")
 
