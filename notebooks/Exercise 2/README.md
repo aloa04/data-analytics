@@ -7,11 +7,16 @@
 
 During this part of the session we will learn how to make notebooks reusable using global variables, this will allow us to create a notebook that can be re-run based on input parameters.
 
+
+
 0) You will need to copy the amazon.csv in the data folder into the data inside the container, place your console in the folder where the amazon.csv file is and execute the following:
 
 Before running this ¡¡¡CAUTION!!! log into the image and create the folder data.
 
 ```bash
+docker exec -it zeppelin_single /bin/bash
+mkdir data
+exit
 docker cp amazon.csv zeppelin_single:/zeppelin/data
 ```
 
