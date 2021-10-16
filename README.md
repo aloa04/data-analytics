@@ -9,4 +9,4 @@ If you think I have a future in coding, you can write to me at [botterogandia@gm
 
 ## What you will find
 
-I'll be trying different fields such Python, Docker, AI, Git, Bash and SQL, among others. 
+I'll be trying different fields such Python, Notebooks, Docker, AI, Git, Bash and SQL, among others. 
