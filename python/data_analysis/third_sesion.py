@@ -33,3 +33,10 @@ mytable3 = round(mytable2,1)
 #Barchart1
 bar_list = ['Sunny', 'Cloudy', 'Rainy']
 plt.bar(bar_list, mytable2)
+
+#Barchart 2
+bar_list = ['Sunny', 'Cloudy', 'Rainy']
+plt.bar(bar_list, mytable2, edgecolor='black')
+plt.ylabel('Percentage')
+plt.title('Figure 1. Percentage of weather situations')
+plt.text( 1.7 , 50, 'n: 731')
