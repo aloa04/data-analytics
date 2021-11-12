@@ -7,7 +7,7 @@ import matplotlib.pyplot as plt
 
 #Get working directory
 os.getcwd()
-os.chdir('/Users/pablobottero/github/master/python/data_analysis/second_sesion')
+os.chdir('/Users/pablobottero/github/master/python/data_analysis')
 os.getcwd()
 
 rentals_2011= pd.read_csv('washington_bike_rentals_2011.csv', sep=';', decimal=',')
@@ -43,11 +43,11 @@ plt.ylabel('Frecuencia')
 plt.xlabel('Number of rentals')
 plt.show()
 
-plt.hist(y ,edgecolor='black')
+plt.hist(x ,edgecolor='black')
 plt.show()
 
 os.getcwd()
-os.chdir('C:/Users/rafap/Desktop/EDEM/PEP/code_and_data')
+os.chdir('/Users/pablobottero/github/master/python/data_analysis')
 os.getcwd()
 
 weather_2011= pd.read_csv('weather_washington_2011.csv', sep=';', decimal=',')
