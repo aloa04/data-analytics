@@ -30,20 +30,6 @@ lab0_kafka_1       /etc/confluent/docker/run   Up      0.0.0.0:9092->9092/tcp
 lab0_zookeeper_1   /etc/confluent/docker/run   Up      0.0.0.0:2181->2181/tcp, 2888/tcp, 3888/tcp
 ```
 
-### Zookeeper 
-
-Check the ZooKeeper logs to verify that ZooKeeper is healthy.
-
-```sh
-$ docker-compose logs zookeeper | Select-String binding
-```
-
-Sample output: 
-
-```sh
-zookeeper    | [2020-02-18 15:49:28,229] INFO binding to port 0.0.0.0/0.0.0.0:2181 (org.apache.zookeeper.server.NIOServerCnxnFactory)
-```
-
 ### Broker 
 
 Check the Kafka logs to verify that broker is healthy.
