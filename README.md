@@ -4,7 +4,7 @@ Hi, I'm Pablo Bottero, and in my *master* repository you can find everything I'm
 
 If you want to have a chat, you can write me at [botterogandia@gmail.com](mailto:botterogandia@gmail.com), also on my [LinkedIn](https://www.linkedin.com/in/pablo-bottero/) you can see what I'm doing at the moment 👀
 
-Utilizo todo lo que aprendo en mi día a día para
+Mi objetivo es ayudar a la **Transformación digital** de las empresas con todo lo que aprendo en este master, pero también en mi día a día.
 
 
 
@@ -17,7 +17,7 @@ Utilizo todo lo que aprendo en mi día a día para
 During this year, I'm learning 
 
 - Python
-- Spark
+- Spark & *Spark Streaming*
 - Kafka
 - SQL
 - Bash
