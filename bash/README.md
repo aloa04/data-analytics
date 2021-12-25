@@ -1,3 +1,3 @@
 # Bash 
 
-Aquí hay ejercicios básicos de Bash
+Here are some basic Bash exercises
