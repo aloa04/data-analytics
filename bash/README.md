@@ -1,3 +1,1 @@
-# Bash 
-
-Here are some basic Bash exercises
+Here you can find some basic **Bash** exercises.
