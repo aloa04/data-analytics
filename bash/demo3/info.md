@@ -1,0 +1,1 @@
+This file creates copies a Git repository and calls it hello.txt
