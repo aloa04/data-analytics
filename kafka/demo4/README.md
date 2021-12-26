@@ -1,0 +1,1 @@
+With this files, you can create a **Kafka Producer Application**. With the Docker Compose file Kafka and Zookeeper will run and with the **build file**, **Maven** will be configured using a GitHub repository. 
