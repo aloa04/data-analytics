@@ -1,4 +1,4 @@
-#### Ejercicios SQL
+#### Some SQL exercises
 
 *All exercises are done on the website [pgAdmin 4](http://35.192.88.224:5050/browser/)*
 
