@@ -1,0 +1,11 @@
+'''
+Write a program that can tell you whether a year (whole number) is a leap year or not.
+'''
+
+def task9Basic():
+  year: int = int(input("Enter a year and let's see if it's a leap year...Do you know which years have been or will be leap years? Try one "))
+
+  if(year % 4 == 0 and (year % 100 != 0 or year % 400 == 0)):
+      print(f"The year {year} is leap year!")
+  else:
+      print(f"Unfortunately, year {year} is not a leap year.!")

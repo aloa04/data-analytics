@@ -1,0 +1,12 @@
+'''
+Write a program that is able to display the elements of a list in reverse order to the original.
+'''
+
+def task4Basic():
+  myList: (int) = [1,2,3,4,5]
+  reverse_list: (int) = reversed(myList)
+
+  print(reverse_list)
+
+  for i in reverse_list:
+      print(f"- {i}")

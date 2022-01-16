@@ -1,0 +1,12 @@
+'''
+Write a program that stores in a list (array) all the names of the students in the master and displays them on the screen.
+'''
+
+def task12Basic():
+  student_list: (str) = ['Pablo', 'Olimpia', 'Rafa', 
+                        'Jaime', 'Luis', 'Alvaro', 
+                        'Sergi', 'Chema']
+
+  print('*** Students ***')
+  for student in student_list:
+      print(f"- {student}")

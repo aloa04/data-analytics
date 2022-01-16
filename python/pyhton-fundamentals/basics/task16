@@ -1,0 +1,12 @@
+'''
+Create a script that is able to subtract two dates and show the result by console
+'''
+
+from datetime import date
+
+def task16Basic():
+  date1 = date(2000,2,28)
+  date2 = date(2001,2,28)
+
+  print(date2-date1)
+  

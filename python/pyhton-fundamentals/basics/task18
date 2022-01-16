@@ -1,0 +1,13 @@
+'''
+Create a function that is able to remove a particular character from a text string.
+'''
+
+def delete(str, n):
+    start = str[:n] 
+    final = str[n+1:]
+    return start + final
+
+def task18Basic():
+  print(delete('Valencia', 0))
+  print(delete('Valencia', 3))
+  print(delete('Valencia', 5))

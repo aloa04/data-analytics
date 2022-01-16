@@ -1,0 +1,13 @@
+'''
+Write a program containing two variables. One of them represents a user's password and the other a text string entered. 
+The program must be able to display on the screen whether the two text strings are the same case insensitive.
+'''
+
+def task7Basic():
+  secret: str = "admin"
+  text_entered: str = input('Enter your password: ')
+
+  if(secret.lower() == text_entered.lower()):
+      print ("Passwords match!")
+  else:
+      print ("Passwords do not match!")

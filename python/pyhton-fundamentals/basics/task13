@@ -1,0 +1,16 @@
+'''
+Write a function that calculates the area of a triangle, receiving the height and base as parameters and another function that calculates the area of a circle receiving the radius of the circle.
+'''
+
+import math
+
+
+def triangle_area(height: float, base: float) -> float:
+    return ((height*base)/2)
+
+def circle_area(radius: float) -> float:
+    return (math.pi*(radius**2))
+
+def task13Basic():
+    print(f"Triangle area: {triangle_area(2,2)}")
+    print(f"Circle area: {circle_area(4)}")

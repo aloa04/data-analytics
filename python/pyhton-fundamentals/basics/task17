@@ -1,0 +1,54 @@
+'''
+Starting from the following tuple:
+tuple = (2, 4, 3, 5, 5, 4, 6, 6, 7, 8, 6, 1).
+Perform the following operations:
+
+- Find the elements from 3 to 5.
+- Find the first 6 elements
+- Displays the tuple from the 5th element to the end
+- Displays the entire tuple using [:].
+- Displays all elements from position 2 to 9 two by two
+- Returns the tuple with a jump every 4 elements
+- Uses a negative step to display the tuple from position 9 to 2
+'''
+
+def task17Basic():
+  tuple = (2, 4, 3, 5, 4, 6, 7, 8, 6, 1)
+
+  # Elements 3 to 5
+  # tuple [start:stop]
+  _slice = tuple[3:5]
+  print('1-', _slice)
+
+  # First 6 elements
+  # Si no se define un start, se toma desde el principio
+  _slice = tuple[:6]
+  print('2-',_slice)
+
+  # From 5 to the end
+  _slice = tuple[5:]
+  print('3-',_slice)
+
+  # All the tuple
+  _slice = tuple[:]
+  print('4-',_slice)
+
+  # Indexes can be defined with negative values
+  _slice = tuple[-8:-4]
+  print('5-',_slice)
+
+  # Reformulating the tuple
+  tuple = tuple("HELLO WORLD")
+  print('6-',tuple)
+
+  # tuple[start:stop:step]
+  _slice = tuple[2:9:2]
+  print('7-',_slice)
+
+  # Returns a tuple that skips every 4 elements
+  _slice = tuple[::4]
+  print('8-',_slice)
+
+  # When we have the negative Step, it goes from the back.
+  _slice = tuple[9:2:-4]
+  print('9-',_slice)

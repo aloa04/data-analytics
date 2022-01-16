@@ -1,0 +1,18 @@
+'''
+Write a program capable of displaying all odd numbers from a start number and an end number.
+'''
+
+def task2Basic():
+  starting_number: int = int(input('Enter a number: '))
+  final_number: int = int(input('Enter another number: '))
+  odd_numbers: (int) = []
+
+  while final_number <= starting_number:
+      final_number: int = int(input('The second number must be greater than the first. Enter another number: '))
+
+  for i in range(starting_number, final_number+1):
+      if(i % 2 != 0):
+          odd_numbers.append(i)
+
+  print(f"List of odd numbers between {starting_number} and {final_number}:")
+  print(odd_numbers)

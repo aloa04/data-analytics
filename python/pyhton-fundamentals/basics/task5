@@ -1,0 +1,17 @@
+'''
+Write a program that is able to ask a user by console to enter a password and as long as the password is not "admin", the program will keep asking for it.
+If the password is wrong, it should prompt the user with an error message and ask for the password again until the user enters it correctly. If the user enters "admin" correctly, the program should display a message "Welcome to the program Mr. ADMIN" and then terminate.
+'''
+
+def task5Basic():
+  success: bool = False
+  input_value: str = ''
+
+  while not success:
+      input_value = input('Enter a password: ')
+      if(input_value == 'admin'):
+          success = True
+          print(f"Welcome to the program Mr. ADMIN")
+          break
+      else:
+          print("Incorrect password!")

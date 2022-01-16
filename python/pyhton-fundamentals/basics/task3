@@ -1,0 +1,9 @@
+'''
+Write a program that is able to display numbers from 1 to 100 in reverse order.
+'''
+
+def task3Basic():
+  range_1_100 = range(1,101)
+
+  for i in reversed(range_1_100):
+      print(f"- {i}")

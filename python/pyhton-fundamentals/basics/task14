@@ -1,0 +1,15 @@
+'''
+Write a function that uses the circle area function to return the volume of a cylinder, 
+obtaining by parameter the length of the cylinder.
+'''
+
+import math
+
+def circle_area(radio: float) -> float:
+    return (math.pi*(radio**2))
+
+def cylinder_volume(radio:float, length: float) -> float:
+    return circle_area(radio)*length
+
+def task14Basic():
+  print(f"The volume of the cylinder is: {cylinder_volume(2, 3)}")

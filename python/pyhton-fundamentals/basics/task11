@@ -1,0 +1,16 @@
+'''
+Write a program that prompts the user for the following data via console:
+Movie titleDirectorYearCountryEnter those values in a GLOBAL variable named ''movie.
+'''
+
+global film
+
+def task11Basic():
+  film: dict = dict()
+
+  film['Title'] = input('Enter the title of the film: ')
+  film['Director'] = input('Enter the director of the film: ')
+  film['Year'] = int(input('Enter the year of the film: '))
+  film['Country'] = input('Enter the country of the film: ')
+
+  print(film)

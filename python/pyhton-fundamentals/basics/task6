@@ -1,0 +1,10 @@
+'''
+Write a program that asks the user his age and displays on the screen whether he is an adult or not.
+'''
+def task6Basic():
+  age: int = input('Hi User, please enter your age: ')
+
+  if(int(age) < 18):
+      print('You are not an adult')
+  else:
+      print('You are an adult')

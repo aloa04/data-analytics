@@ -1,0 +1,12 @@
+'''
+Write a function that receives a sample of numbers in a list and returns another list with their squares.
+'''
+
+def double (myList:(int)) -> (int):
+    for i, number in enumerate(myList):
+        myList[i] *=2
+
+def task15Basic():
+  myNewList = [10,50,100]
+  double(myNewList)
+  print(f"Original Modified List: {myNewList}")

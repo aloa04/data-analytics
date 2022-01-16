@@ -1,0 +1,19 @@
+'''
+Write a program that stores in a variable the following content:
+{'title':'The Beyond','aka':'E tu vivrai nel terrore - Laldilà','director':'Lucio Fulci','year':1981,'country':'Italy'}
+'''
+
+def task10Basic():
+  film: dict = dict({
+    'title': 'El Más Allá',
+    'aka': 'E tu vivrai nel terrore - L\'aldilà',
+    'director': 'Lucio Fulci',
+    'year': 1981,
+    'country': 'Italia'
+  })
+
+  print(f"- Film name {film.get('title')}")
+  print(f"- AKA of the film {film.get('aka')}")
+  print(f"- Film Director {film.get('director')}")
+  print(f"- Year of the film {film.get('year')}")
+  print(f"- Country of the film {film.get('country')}")
